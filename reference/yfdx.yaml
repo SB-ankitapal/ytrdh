@@ -4,6 +4,8 @@ x-stoplight:
 info:
   title: yfdx
   version: '1.0'
+  summary: summary3456
+  description: f
 servers:
   - url: 'http://localhost:3000'
 paths:
