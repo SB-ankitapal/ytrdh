@@ -27,6 +27,8 @@ properties:
     allOf:
       - x-stoplight:
           id: 0yohkm714xxf1
+        required:
+          - kjhvkvdg
         properties:
           xfvhjvf:
             type: string
@@ -43,7 +45,9 @@ properties:
       - x-stoplight:
           id: 810gge7mbzymi
         oneOf:
-          - properties:
+          - required:
+              - fkvgfsv
+            properties:
               khjgvhjsv:
                 type: string
                 x-stoplight:
