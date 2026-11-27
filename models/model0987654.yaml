@@ -3,6 +3,11 @@ x-stoplight:
   id: 5qnhym596s23x
 type: object
 description: lihuytredsdf ujyhfdx
+examples:
+  - id: string
+    kjhgfgdg: string
+    iuyftghff: string
+    iuygtfgx: string
 properties:
   id:
     type: string
@@ -17,11 +22,50 @@ properties:
     x-stoplight:
       id: iny2724nxh5fs
   iuygtfgx:
-    type: string
     x-stoplight:
       id: xq9sivugg1wem
-examples:
-  - id: string
-    kjhgfgdg: string
-    iuyftghff: string
-    iuygtfgx: string
+    allOf:
+      - x-stoplight:
+          id: 0yohkm714xxf1
+        properties:
+          xfvhjvf:
+            type: string
+            x-stoplight:
+              id: pvrv5qup371gy
+          jfgvjfdgvjs:
+            type: string
+            x-stoplight:
+              id: jjwzh8g6frwo8
+          kjhvkvdg:
+            type: string
+            x-stoplight:
+              id: f1f2qckfcaaq6
+      - x-stoplight:
+          id: 810gge7mbzymi
+        oneOf:
+          - properties:
+              khjgvhjsv:
+                type: string
+                x-stoplight:
+                  id: ms5teoq7ao4yt
+              fkvgfsv:
+                type: string
+                x-stoplight:
+                  id: o53hxhba2lygo
+          - x-stoplight:
+              id: lm73vovl91u3c
+            anyOf:
+              - properties:
+                  jvbhgsbnvbv:
+                    type: string
+                    x-stoplight:
+                      id: 07bf3bnxjtnsx
+                  vhnv:
+                    type: string
+                    x-stoplight:
+                      id: u41lnt9mvwys8
+                  khvjkv:
+                    type: string
+                    x-stoplight:
+                      id: 1roug5qbpbnic
+    type: object
